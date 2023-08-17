@@ -1,0 +1,274 @@
+
+        // Withdraw Section
+        // TweenLite.set(".withdraw_section .content_heading", { css: {y: 100} });
+        // TweenLite.set(".text_span_first", { css: { x: "-100%", opacity: 0} });
+        // TweenLite.set(".bg_text_span", { css: { x: "-120%", opacity: 0} });
+        // TweenLite.set(".text_span_last", { css: { x: "-120%", opacity: 0} });
+        // TweenLite.set(".withdraw_section .sub_heading_width", { css: { y: 50, opacity: 0} });
+        // TweenLite.set(".withdraw_image1", { css: { x: "200%", rotate: "10deg"} });
+        // TweenLite.set(".withdraw_image2", { css: { x: "210%", rotate: "30deg"} });
+        // TweenLite.set(".withdraw_image3", { css: { x: "210%", rotate: "40deg"} });
+        // var action = gsap.timeline({defaults: {duration: 1, ease:'none' },
+        // scrollTrigger: {
+        //   trigger: ".withdraw_section",
+        //   pin:true,
+        //   scrub: true,
+        //   start: "top top",
+        //   end: "+=1000", 
+        // }})
+        // .to('.withdraw_section .content_heading', {y: 0})
+        // .to('.text_span_first', { x: 0, opacity: 1, delay: -1})
+        // .to('.bg_text_span', { x: 0, opacity: 1, delay: -0.7 })
+        // .to('.text_span_last', { x: 0, opacity: 1, delay: -1 })
+        // .to('.withdraw_section .sub_heading_width', { y: 0, opacity: 1, delay: -0.3 })
+        // .to('.withdraw_image1', { x: 0, rotate: "-10deg", delay: -0.3 })
+        // .to('.withdraw_image2', { x: 0, rotate: "10deg"})
+        // .to('.withdraw_image3', { x: 0, rotate: "0deg"})
+        // .to('.withdrawImgs img', { y: -50, stagger: 1})
+        // .to('.withdraw_section', { opacity: 0, delay: -0.5 } )
+    
+        // Why Us Section
+        // TweenLite.set(".why_us_section", { css: { visibility: "hidden" } });
+        // TweenLite.set(".why_us_text", { css: { scale: 3.5, opacity: 0.5 } });
+        // TweenLite.set(".top_swirl", { css: { rotate: "180deg", right: "-100%" } });
+        // TweenLite.set(".bottom_swirl", { css: { rotate: "180deg", left: "-100%" } });
+        // TweenLite.set(".content_change_on_scroll", { css: { display: "none" } });
+        // TweenLite.set(".star_left", { css: { scale: 0 } });
+        // TweenLite.set(".star_right", { css: { scale: 0 } });
+        // TweenLite.set(".why_us_banner1", { css: { x: "20%", y: "200%" } });
+        // TweenLite.set(".why_us_banner2", { css: { x: "20%", y: "100%" } });
+        // TweenLite.set(".why_us_banner3", { css: { x: "20%", y: "100%" } });
+        // TweenLite.set(".why_us_heading2", { css: { display: "none" } });
+        // TweenLite.set(".why_us_heading3", { css: { display: "none" } });
+    
+        // var action = gsap.timeline({defaults: {duration: 1, ease:'none' },
+        // scrollTrigger: {
+        //   trigger: ".why_us_section",
+        //   pin:true,
+        //   scrub: true,
+        //   start: "top top",
+        //   end: "+=1000", 
+        // }})
+        // .to('.why_us_section', { visibility: "visible", delay: 1 })
+        // .to('.why_us_text', { scale: 2.5, opacity: 1  })
+        // .to('.why_us_text', { scale: 1.5, display: "none"  })
+        // .to('.top_swirl', { rotate: "0", right: 0, delay: -2 })
+        // .to('.bottom_swirl', { rotate: "0", left: 0, delay: -2 })
+        // .to('.content_change_on_scroll', { display: "block", })
+        // .to('.star_left', { scale: 1.2, delay: -1.5 })
+        // .to('.star_right', { scale: 1.2, delay: -1.5 })
+        // .to('.star_left', { scale: 1 })
+        // .to('.star_right', { scale: 1, delay: -1 })
+        // .to('.why_us_banner1', { y: "20%" })
+        // .to('.why_us_banner1', { rotate: "-370deg", left: "5%", top: "2%", bottom: "unset", delay: -1 })
+        // .to('.why_us_banner2', { y: 0, delay: -1 })
+        // .to('.why_us_banner3', { y: 0, delay: -1 })
+        // .to('.why_us_banner2', { rotate: "-350deg", left: "5%", top: "8%" })
+        // .to('.why_us_heading2', { display: "block", delay: -0.4 })
+        // .to('.why_us_heading1', { display: "none", delay: -2 })
+        // .to('.why_us_banner3', { rotate: "-345deg", left: "5%", top: "8%" })
+        // .to('.why_us_heading3', { display: "block", delay: -0.4 })
+        // .to('.why_us_heading2', { display: "none", delay: -2 })
+        // .to('.why_us_heading1', { display: "none", delay: -2 })
+    
+        // Welcome Bonus Section
+        // TweenLite.set(".welcome_bonus_section .content_heading", { css: { x: "-100%", opacity: 0 } });
+        // TweenLite.set(".welcome_bonus_section .sub_heading_width", { css: { x: "-100%", opacity: 0 } });
+        // TweenLite.set(".welcome_bonus_section .deposit_images", { css: { opacity: 0 } });
+        // TweenLite.set(".deposit_card1", { css: { rotate: "-45deg",x: "-50%", y: "-50%" } });
+        // TweenLite.set(".deposit_card2", { css: { rotate: "-15deg", x: "-50%", y: "-50%" } });
+        // TweenLite.set(".deposit_card3", { css: { rotate: "0deg", x: "-50%", y: "-50%" } });
+        // TweenLite.set(".deposit_card4", { css: { rotate: "0deg", x: "-50%", y: "-50%" } });
+        // var action = gsap.timeline({defaults: {duration: 1, ease:'none' },
+        // scrollTrigger: {
+        //   trigger: ".welcome_bonus_section",
+        //   pin:true,
+        //   scrub: true,
+        //   start: "top top",
+        //   end: "+=1000", 
+        // }})
+        // .to('.welcome_bonus_section .content_heading', { x: 0, opacity: 1})
+        // .to('.welcome_bonus_section .deposit_images', { opacity: 1, delay: -1  })
+        // .to('.deposit_card2', { rotate: "-30deg", delay: -1 })
+        // .to('.deposit_card3', { rotate: "-15deg", delay: -0.5 })
+        // .to('.welcome_bonus_section .sub_heading_width', { x: 1, opacity: 1, delay: -0.5 })
+        // .to('.deposit_card4', { x: "200%", delay: 1 })
+        // .to('.deposit_card3', { rotate: "0deg", x: "-50%", y: "-50%" })
+        // .to('.deposit_card3', { x: "200%" })
+        // .to('.deposit_card2', { rotate: "0deg", x: "-50%", y: "-50%" })
+        // .to('.deposit_card2', { x: "200%" })
+        // .to('.deposit_card1', { rotate: "0deg", x: "-50%", y: "-50%" })
+        // .to('.deposit_card1', { y: "-100%", opacity: 0 })
+        // .to('.welcome_bonus_section .content_heading', { x: "-100%", opacity: 0, delay: -0.5})
+        // .to('.welcome_bonus_section .sub_heading_width', { x: "-100%", opacity: 0, delay: -0.5 })
+        // .to('.welcome_bonus_section', { opacity: 0, delay: -1 })
+    
+    
+        // Bonus Win Section
+        // TweenLite.set(".win_bonus1", { css: { x: "10%", opacity: 0  } });
+        // TweenLite.set(".win_bonus2", { css: { x: "100%" } });
+        // TweenLite.set(".win_bonus3", { css: { x: "100%" } });
+        // TweenLite.set('.deposit_images .welcome_bonus2', { rotate: "-20deg" });
+        // TweenLite.set('.deposit_images .welcome_bonus3', { rotate: "-30deg" });
+        // var action = gsap.timeline({defaults: {duration: 1, ease:'none' },
+        // scrollTrigger: {
+        //   trigger: ".bonus_win_section",
+        //   pin:true,
+        //   scrub: true,
+        //   start: "top top",
+        //   end: "+=1000", 
+        // }})
+        // .to('.win_bonus1', { x: 0, opacity: 1 })
+        // .to('.win_bonus1', { x: "-100%", delay: .5 })
+        // .to('.deposit_images .welcome_bonus1', { rotate: "15deg", delay: -1 })
+        // .to('.win_bonus2', { x: 0, delay: -1 })
+        // .to('.deposit_images .welcome_bonus2', { rotate: "0deg", delay: -1 })
+        // .to('.win_bonus2', { x: "-100%", delay: .5 })
+        // .to('.deposit_images .welcome_bonus2', { rotate: "20deg", delay: -1 })
+        // .to('.win_bonus3', { x: 0, delay: -1 })
+        // .to('.deposit_images .welcome_bonus3', { rotate: "0deg", delay: -1 })
+        // .to('.win_bonus3', { x: "-100%", delay: .5 })
+        // .to('.deposit_images .welcome_bonus3', { rotate: "30deg", delay: -1 })
+    
+        // Last Section
+        // TweenLite.set('.line_screen_bg2', {opacity: 0})
+        // TweenLite.set(".ready_sec_text h4", { css: { opacity: 0, scale: 0 } });
+        // TweenLite.set(".ready_sec_heading", { css: { opacity: 0 } });
+        // TweenLite.set(".hr_line_left", { css: { x: "-150%", y: 0 } });
+        // TweenLite.set(".hr_line_Right", { css: { x: "150%", y: 0} });
+        // var action = gsap.timeline({defaults: {duration: 1, ease:'none' },
+        // scrollTrigger: {
+        //     trigger: ".ready_Play_Section",
+        //     pin:true,
+        //     scrub:0.3,
+        //     start: "top top",
+        //     end: "+=1000", 
+        // }})
+        // .to('.line_screen_bg2', { opacity: 1 })
+        // .to('.ready_sec_heading', { opacity: 1, delay: -1 })
+        // .to(".hr_line", { delay: 0, x: 0 })
+        // .to(".ready_sec_text h4", { delay:1, opacity: 1, scale: 1 })
+        // .to(".hr_line_left", { x: '-77%', y: -195, delay: -1 })
+        // .to(".hr_line_Right", { x: '77%', y: 190, delay: -1 });
+    
+
+
+
+        <section class="section_container why_us_section">
+        <div class="twoSwirls top_swirl">
+            <img src="{{ asset('assets/image/topSwirls.png') }}" alt="Two Swirls">
+        </div>
+        <div class="content_change_on_scroll">
+            <h4 class="content_heading">
+
+                <img class="star_left" src="{{ asset('assets/image/starLeft.svg ') }}" alt="Star Image"><span
+                    class="why_us_heading1"> Always happy to hear! </span>
+                <span class="why_us_heading2"> Fraud-Free Zone! </span>
+                <span class="why_us_heading3"> Playful Journeys Awaits! </span>
+
+                <img class="star_right" src="{{ asset('assets/image/starRight.svg ') }}"
+                    alt="Star and Dot Image">
+            </h4>
+            <p class="sub_heading_width">Support is just a click away! Our team is here to help you in any way we
+                can.</p>
+        </div>
+        <h4 class="content_heading why_us_text">WHY US?</h4>
+        <div class="whyUsBanners">
+            <img class="why_us_banner1" src="{{ asset('assets/image/whyUsBanner1.png') }}" alt="Clock">
+            <img class="why_us_banner2" src="{{ asset('assets/image/whyUsBanner2.png') }}" alt="Lock and Key">
+            <img class="why_us_banner3" src="{{ asset('assets/image/whyUsBanner3.png') }}" alt="Rummy Cards">
+        </div>
+        <div class="twoSwirls bottom_swirl">
+            <img src="{{ asset('assets/image/bottomSwirls.png') }}" alt="Two Swirls">
+        </div>
+    </section>
+
+    <section class="section_container bonusSection welcome_bonus_section">
+        <div class="content_section contentTranslateY1">
+            <h4 class="content_heading">
+                <b> Enhanced</b><br>
+                <b>Extra </b>
+                <b> Benefit</b>
+            </h4>
+            <p class="sub_heading_width">Don't wait to get benefits! Instantly enjoy your winnings with rewards
+                and take your victory without any hold-ups!</p>
+        </div>
+        <div class="img_Section">
+            <div class="deposit_images">
+                <img class="depositCard deposit_card1" src="{{ asset('assets/image/depositCard1.png') }}"
+                    alt="">
+                <img class="depositCard deposit_card2" src="{{ asset('assets/image/depositCard2.png') }}"
+                    alt="">
+                <img class="depositCard deposit_card3" src="{{ asset('assets/image/depositCard3.png') }}"
+                    alt="">
+                <img class="depositCard deposit_card4" src="{{ asset('assets/image/depositCard4.png') }}"
+                    alt="">
+            </div>
+        </div>
+    </section>
+
+    <section class="section_container bonusSection bonus_win_section">
+        <div class="winBonus win_bonus1">
+            <div class="img_Section">
+                <div class="deposit_images">
+                    <img class="welcome_bonus1" src="{{ asset('assets/image/welcomeBonus1.png') }}"
+                        alt="">
+                </div>
+            </div>
+            <div class="content_section contentTranslateY1">
+                <h4 class="content_heading">It’s a Win Win!</h4>
+                <p class="sub_heading_width">Every second spent here is a WIN! WIN! with exciting challenges,
+                    strategic gaming, and fantastic prizes. Let the adventures begin!</p>
+            </div>
+        </div>
+        <div class="winBonus win_bonus2">
+            <div class="img_Section">
+                <div class="deposit_images">
+                    <img class="welcome_bonus2" src="{{ asset('assets/image/welcomeBonus2.png') }}"
+                        alt="">
+                </div>
+            </div>
+            <div class="content_section contentTranslateY1">
+                <h4 class="content_heading">Win Big!</h4>
+                <p class="sub_heading_width">"Big Win!! Kickstart your gaming journey with our sizzling 100%
+                    Welcome Bonus. Join the action-packed world of slots, card games, and more, with double the
+                    firepower to boost your chances of striking it rich. Don't let this opportunity slip!!!"</p>
+            </div>
+        </div>
+        <div class="winBonus win_bonus3">
+            <div class="img_Section">
+                <div class="deposit_images">
+                    <img class="welcome_bonus3" src="{{ asset('assets/image/welcomeBonus3.png') }}"
+                        alt="">
+                </div>
+            </div>
+            <div class="content_section contentTranslateY1">
+                <h4 class="content_heading">Double The Fun!</h4>
+                <p class="sub_heading_width">Prepare yourself for an immersive gaming experience that will take
+                    fun to new heights! Double joy awaits you with our fantasy games!</p>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <video class="line_screen_bg_gif line_screen_bg2" src="{{ asset('assets/image/lineScreenBgDesktop.mp4') }}"
+            autoplay="" muted="" loop=""></video>
+
+        <h6 class="ready_sec_heading text_center">Unlock the <span> Winning </span> Fun with <span> Funmatch! </span>
+        </h6>
+        <div class="ready_sec_text">
+            <h4>Ready</h4>
+            <h4>Set</h4>
+            <h4 class="readySecShadowTxt">Play!</h4>
+            <div class="hrLineSec">
+                <div class="hr_line hr_line_left"></div>
+                <div class="hr_line hr_line_Right"></div>
+            </div>
+        </div>
+        <div class="animetrigger">
+            <a href="#" class="playnow-btn bg-border">
+                <span class="bg-color bgsize bg-position-relative"></span>
+                <span class="playText">Play Now</span>
+            </a>
+        </div>
+    </section>

@@ -1,0 +1,1213 @@
+
+        /* @font-face {
+            font-family: 'Druk Text Trial';
+            src: url('/assets/fonts/druk-trial-cufonfonts-webfont/DrukText-Medium-Trial.woff2') format('woff2'),
+                url('/assets/fonts/druk-trial-cufonfonts-webfont/DrukText-Medium-Trial.woff') format('woff');
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        section h1,
+        h2,
+        h3,
+        h4,
+        h5 {
+            font-family: 'Druk Text Trial', Arial, sans-serif;
+        }
+
+        .sub_heading_width {
+            margin-top: 26px;
+            width: 70%;
+            font-size: 24px;
+            line-height: 1.5;
+            font-weight: 400;
+            color: #2C2C2C;
+        }
+
+        html {
+            font-family: 'Rubik', sans-serif;
+        }
+
+        body {
+            height: 100vh;
+            width: 100%;
+            max-width: 1920px;
+            margin: 0 auto;
+            overflow-y: auto;
+            overflow-x: hidden;
+        }
+        .main_container {
+            height: 100%;
+            width: 100%;
+        }
+
+        video.line_screen_bg_gif {
+            position: absolute;
+            object-fit: cover !important;
+            z-index: -1;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+
+        .logo_image {
+            position: relative;
+            margin-top: 20px;
+            z-index: -1;
+            display: flex;
+            justify-content: center;
+        }
+
+        
+element.style {
+    translate: none;
+    rotate: none;
+    scale: none;
+    background-color: unset;
+    left: 230.625px;
+    top: 0.001px;
+    margin: 0px;
+    max-width: 1920px;
+    width: 1920px;
+    max-height: 768px;
+    height: 768px;
+    padding: 0px;
+    box-sizing: border-box;
+    position: fixed;
+    transform: translate(0px, 0px);
+}
+.landing_section {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+}
+
+        .section_container {
+            position: relative;
+            width: 100%;
+            overflow-x: hidden;
+        }
+
+        .landing_sec_heading {
+            text-transform: uppercase;
+            margin-top: 50px;
+            font-family: 'Druk Text Trial', Arial, sans-serif;
+            font-weight: 600 !important;
+            font-size: 140px;
+            letter-spacing: 8px;
+            text-shadow: 1px 1px 0 #252525, -1px 1px 0 #252525, 1px -1px 0 #252525, -1px -1px 0 #252525, -1px 0 0 #fff, 0 -1px 0 #fff, -2px -1px 0 #fff, -1px -2px 0 #fff, -3px -2px 0 #fff, -2px -3px 0 #fff, -4px -3px 0 #fff, -3px -4px 0 #fff, -5px -4px 0 #fff, -3px -5px 0 #252525, -6px -5px 0 #252525, 1px -2px 0 black, 0 -3px 0 #252525, -1px -4px 0 #252525, -2px -5px 0 #252525, -2px 1px 0 #252525, -3px 0 0 #252525, -4px -1px 0 #252525, -5px -2px 0 #252525, -6px -3px 0 #252525, -7px -4px 0 #252525;
+        }
+
+        .landing_sec_description {
+            position: absolute;
+            right: 20px;
+            top: 50%;
+            transform: translate(0, -50%);
+            font-weight: 400;
+            font-size: 32px;
+            color: #2E2E2E;
+            text-align: right;
+            width: 320px;
+        }
+
+        .landing_sec_sub_heading {
+            color: #fff;
+            font-family: 'Druk Text Trial', Arial, sans-serif;
+            font-size: 104px;
+            font-weight: 900;
+            text-transform: uppercase;
+        }
+
+        .landing_sec_sub_heading .text_slide_left {
+            position: absolute;
+            background-color: #F2BC11;
+            width: 40vw;
+            left: 0;
+            text-align: right;
+            padding: 10px 20px;
+            top: 58vh;
+            z-index: 1;
+        }
+
+        .landing_sec_sub_heading .text_slide_right {
+            position: absolute;
+            background-color: #F2BC11;
+            width: 20vw;
+            max-width: 280px;
+            right: 23%;
+            top: 69vh;
+            padding: 10px 20px;
+            display: flex;
+            justify-content: flex-end;
+        }
+
+        .landing_sec_banner {
+            width: 52vh;
+            transform: translate(0px, -21%);
+        }
+        .landing_cards {
+            position: absolute;
+            top: 130%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            display: flex;
+            z-index: -1;
+        }
+
+        .landing_card1 {
+            transform: translate(0%, -10%) rotate(-10deg);
+        }
+
+        .landing_card2 {
+            transform: translate(0%, 0%) rotate(11deg);
+        }
+
+        .landing_card3 {
+            transform: translate(0%, -8%) rotate(-5deg);
+        }
+
+        .landing_card4 {
+            transform: translate(0%, 5%) rotate(17deg);
+        }
+
+
+
+        .card_games_section {
+            width: 100%;
+            opacity: 0;
+        }
+        .content_section {
+            width: 50%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+        section.card_games_section {
+            display: flex;
+        }
+        .content_heading{
+            display: flex;
+            flex-direction: column;
+            font-family: 'Druk Text Trial', Arial, sans-serif;
+            font-weight: 1000;
+            font-size: 80px;
+            text-transform: uppercase;
+            color: #252525;
+        }
+        .content_paragraph {
+            line-height: 1.3;
+            font-size: 24px;
+            font-weight: 400;
+            color: #2c2c2c;
+        }
+        .card_game_animation {
+            height: 100%;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .cards_flip {
+            position: relative;
+            z-index: 2;
+        }
+        .card_game_images {
+            position: relative;
+            width: 50%;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-wrap: nowrap;
+        }
+        .card_game_images {
+            position: relative;
+            width: 50%;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-wrap: nowrap;
+        }
+        .card_game_animation {
+            width: 100%;
+            position: absolute;
+            height: 100%;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .card_game_text, .card_game_text2 {
+            position: absolute;
+            top: 12%;
+            z-index: -1;
+        }
+        .coins_cards, .coins_cards2 {
+            position: absolute;
+            z-index: -1;
+            top: 50%;
+            left: 50%;
+            width: 75%;
+            transform: translate(-50%, -50%);
+        }
+        .rummy_card_game, .rummy_card_game2 {
+            transform: perspective(500px) rotateY(-90deg);
+            position: relative;
+            z-index: 2;
+        }
+        .rummy_card_text, .rummy_card_txt2 {
+            position: absolute;
+            top: 5%;
+            left: 0px;
+            width: 100%;
+            height: 100%;
+            transform: perspective(500px) rotateY(-90deg);
+        }
+        .card_game_text, .card_game_text2 {
+            position: absolute;
+            top: 12%;
+            z-index: -1;
+        }
+        .coins_cards, .coins_cards2 {
+            position: absolute;3px
+            z-index: -1;
+            top: 50%;
+            left: 50%;
+            width: 75%;
+            transform: translate(-50%, -50%);
+        }
+ */
+
+
+
+
+ /* --------------------------------------------- */
+  @font-face {
+            font-family: 'Druk Text Trial';
+            src: url('/assets/fonts/druk-trial-cufonfonts-webfont/DrukText-Medium-Trial.woff2') format('woff2'),
+                url('/assets/fonts/druk-trial-cufonfonts-webfont/DrukText-Medium-Trial.woff') format('woff');
+        }
+
+ @font-face {
+    font-family: 'Druk Text Trial';
+    src: url('/assets/fonts/druk-trial-cufonfonts-webfont/DrukText-Bold-Trial.woff2') format('woff2'),
+                url('/assets/fonts/druk-trial-cufonfonts-webfont/DrukText-Bold-Trial.woff') format('woff');
+    font-weight: bold;
+}
+  
+@font-face {
+    font-family: 'Druk Text Trial';
+    src: url('/assets/fonts/druk-trial-cufonfonts-webfont/DrukText-Medium-Trial.woff2') format('woff2'),
+    url('/assets/fonts/druk-trial-cufonfonts-webfont/DrukText-Medium-Trial.woff') format('woff');
+    font-weight: 500;
+}
+  
+@font-face {
+    font-family: 'Druk Text Trial';
+    src: url('/assets/fonts/druk-trial-cufonfonts-webfont/DrukText-Medium-Trial.woff2') format('woff2'),
+    url('/assets/fonts/druk-trial-cufonfonts-webfont/DrukText-Medium-Trial.woff') format('woff');
+    font-weight: normal;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.text_center {
+    text-align: center;
+}
+
+.sub_heading_width {
+    margin-top: 26px;
+    width: 75%;
+    font-size: 24px;
+    line-height: 1.5;
+    font-weight: 400;
+    color: #2C2C2C;
+}
+
+html {
+    font-family: 'Rubik', sans-serif;
+}
+
+body {
+    height: 100vh;
+    width: 100%;
+    max-width: 1920px;
+    margin: 0 auto;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.main_container {
+    height: 100%;
+    width: 100%;
+} 
+
+.section_container {
+    position: relative;
+    width: 1920px;
+    overflow: hidden;
+}
+
+.landing_section {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+}
+
+.line_screen_bg_gif {
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.line_Screen_Bg {
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.logo_image {
+    position: relative;
+    margin-top: 20px;
+    z-index: -1;
+}
+
+.landing_sec_heading {
+    text-transform: uppercase;
+    margin-top: 50px;
+    font-family: 'Druk Text Trial', Arial, sans-serif;
+    font-weight: 900;
+    font-size: 153px;
+    text-shadow: 1px 1px 0 #252525, -1px 1px 0 #252525, 1px -1px 0 #252525, -1px -1px 0 #252525, -1px 0 0 #fff, 0 -1px 0 #fff, -2px -1px 0 #fff, -1px -2px 0 #fff, -3px -2px 0 #fff, -2px -3px 0 #fff, -4px -3px 0 #fff, -3px -4px 0 #fff, -5px -4px 0 #fff, -3px -5px 0 #252525, -6px -5px 0 #252525, 1px -2px 0 black, 0 -3px 0 #252525, -1px -4px 0 #252525, -2px -5px 0 #252525, -2px 1px 0 #252525, -3px 0 0 #252525, -4px -1px 0 #252525, -5px -2px 0 #252525, -6px -3px 0 #252525, -7px -4px 0 #252525;
+}
+
+.landing_sec_sub_heading {
+    color: #fff;
+    font-family: 'Druk Text Trial', Arial, sans-serif;
+    font-size: 104px;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+.landing_sec_sub_heading span:nth-child(1) {
+    position: absolute;
+    background-color: #F2BC11;
+    width: 40vw;
+    max-width: 800px;
+    left: 0;
+    text-align: right;
+    padding: 10px 20px;
+    top: 58vh;
+    z-index: 1;
+}
+
+.landing_sec_sub_heading span:nth-last-child(1) {
+    position: absolute;
+    background-color: #F2BC11;
+    width: 20vw;
+    max-width: 280px;
+    min-width: 250px;
+    /* right: 22%; */
+    top: 69vh;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.landing_sec_description {
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translate(0, -50%);
+    font-weight: 400;
+    font-size: 32px;
+    color: #2E2E2E;
+    text-align: right;
+    width: 320px;
+}
+
+.landing_sec_banner {
+    width: 52vh;
+    transform: translate(0px, -21%);
+}
+
+.landing_cards {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    z-index: -1;
+}
+
+.landing_card1 {
+    opacity: 0;
+    transform: translate(0%, -10%) rotate(-10deg);
+}
+.landing_card2 {
+    opacity: 0;
+    transform: translate(0%, 0%) rotate(11deg);
+}
+.landing_card3 {
+    opacity: 0;
+    transform: translate(0%, -8%) rotate(-5deg);
+}
+.landing_card4 {
+    opacity: 0;
+    transform: translate(0%, 5%) rotate(17deg);
+}
+
+.content_heading b.text_span_first,
+.content_heading b.text_span_last,
+.content_heading {
+    font-family: 'Druk Text Trial', Arial, sans-serif;
+    font-weight: 1000;
+    font-size: 80px;
+    text-transform: uppercase;
+    color: #252525;
+}
+
+.content_paragraph {
+    line-height: 1.3;
+    font-size: 24px;
+    font-weight: 400;
+    color: #2c2c2c;
+}
+
+.bonusSection,
+.withdraw_section,
+.deposit_section,
+.card_games_section {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 5%;
+}
+
+.card_games_section {
+    width: 100%;
+    opacity: 0;
+}
+
+.card_game_images {
+    position: relative;
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+}
+
+.card_game_animation {
+    width: 100%;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.cards_flip {
+    position: relative;  
+    z-index: 2;  
+}
+
+.rummy_card_game,
+.rummy_card_game2 {
+    transform: perspective(500px) rotateY(-90deg);
+    position: relative;
+    z-index: 2;
+}
+
+.rummy_card_text,
+.rummy_card_txt2 {
+    position: absolute;
+    top: 5%;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    transform: perspective(500px) rotateY(-90deg);
+}
+
+.card_game_text,
+.card_game_text2 {
+    position: absolute;
+    top: 12%;
+    z-index: -1;
+}
+
+.coins_cards,
+.coins_cards2 {
+    position: absolute;
+    z-index: -1;
+    top: 50%;
+    left: 50%;
+    width: 75%;
+    transform: translate(-50%, -50%);
+}
+
+.content_section {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.fantasy_sports_section {
+    height: 100vh;
+    padding: 1% 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.fantasy_sports_section .content_heading {
+    margin-top: -80px;
+}
+
+.fantasy_cards {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    margin-top: 3%;
+    width: 100%;
+    max-width: 1440px;
+}
+
+.fantasy_card {
+    width: 222px;
+}
+
+img.fantasy_cardImg1{
+    border-radius: 12px;
+    background: linear-gradient(229deg, #D8E0B1 9.64%, #E1ECDE 28.42%, #ACD1D9 58.19%, #C5D9E0 85.33%);
+}
+.fantasy_cardImg1 {
+    position: relative;
+    z-index: 3;
+}
+img.fantasy_cardImg2{
+    border-radius: 12px;
+    background: linear-gradient(135deg, #BFA7BD 0%, #B5ABC6 35.42%, #D7D3E2 66.91%, #E4E4EC 96.88%);
+}
+
+.fantasy_cardImg2 {
+    position: relative;
+    z-index: 2;
+}
+
+img.fantasy_cardImg3 {
+    border-radius: 12px;
+    background: linear-gradient(134deg, #B68C70 0%, #C7AC9B 7.47%, #EEEAE9 43.89%, #D8CAE0 79.01%);
+}
+.fantasy_cardImg3 {
+    position: relative;
+    z-index: 1;
+}
+
+img.fantasy_cardImg4{
+    border-radius: 12px;
+    background: linear-gradient(135deg, #9AB4CD 0%, #DBECF2 41.67%, #B1D1E2 61.98%, #A4B2D7 96.88%);
+}
+.deposit_sub_heading,
+.fantasy_card_heading {
+    color: #252525;
+    font-size: 24px;
+    font-weight: 500;
+    font-family: 'Druk Text Trial', Arial, sans-serif;
+    margin: 20px 0 10px;
+}
+
+.fantasy_card_content {
+    color: #2C2C2C;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+.img_Section {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2%;
+}
+
+.deposit_section {
+    padding-left: 0;
+    padding-right: 5%;
+}
+
+.deposit_section .img_Section {
+    width: 55%;
+}
+
+.deposit_section .content_section {
+    align-items: flex-end;
+    width: 45%;
+    transform: translate(-10%, 0);
+}
+
+.deposit_video {
+    width: 100%;
+    object-fit: cover;
+}
+
+.deposit_section .content_heading {
+    text-align: right;
+    margin-bottom: 50px;
+}
+
+.bank_lists {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    gap: 20px;
+    max-width: 550px;
+    margin-left: auto;
+    margin-top: 10px;
+}
+
+.bank_lists .logo-wraper{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    gap: 20px;
+}
+
+.contentTranslateY1 .content_heading span,
+.content_heading.span,
+.content_heading.mobile_Mode span {
+    color: #2C2C2C;
+    font-size: 24px;
+    font-weight: 400;
+    display: inherit;
+}
+
+.displayNone {
+    display: none !important;
+}
+
+.withdraw_section {
+    background-color: #fff;
+}
+
+.contentTranslateY1 .content_heading .bg_text_span {
+    background-color: #F2BC11;
+    display: inline-block;
+    color: #fff;
+    padding: 2px 20px;
+    justify-content: center;
+    align-items: center;
+    font-size: 75px;
+    font-weight: 1000;
+    font-family: 'Druk Text Trial', Arial, sans-serif;
+}
+
+.withdraw_section .img_Section {
+    position: relative;
+    overflow: hidden;
+}
+
+.withdrawImgs {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+
+.why_us_section {
+    height: 100vh;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.why_us_text {
+    color: #F2BC11;
+    position: absolute;
+    opacity: 0;
+}
+
+.top_swirl {
+    position: absolute;
+    right: 0;
+    top: 20px;
+    width: 150px;
+}
+
+.bottom_swirl {
+    position: absolute;
+    left: 0;
+    bottom: 10%;
+    width: 150px;
+}
+
+.bottom_swirl img,
+.top_swirl img {
+    width: 100%;
+}
+.content_change_on_scroll {
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    max-width: 1000px;
+    padding: 0 10px;
+}
+
+.content_change_on_scroll .content_heading {
+    display: inline-block;
+    position: relative;
+}
+
+.content_change_on_scroll .sub_heading_width {
+    margin: 26px auto;
+}
+
+.whyUsBanners {
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+
+.whyUsBanners img {
+    position: absolute;
+    width: 30vh;
+    bottom: 5vh;
+    right: 6%;
+}
+
+.why_us_banner1 {
+    transform: rotate(-270deg);
+}
+
+.why_us_banner2 {
+    transform: rotate(-10deg);
+}
+
+.why_us_banner3 {
+    transform: rotate(15deg);
+}
+
+.star_left {
+    position: absolute;
+    left: -50px;
+    width: 26px;
+}
+
+.star_right {
+    position: absolute;
+    right: -50px;
+    bottom: -12px;
+    width: 40px;
+}
+
+.welcome_bonus_section {
+    background-image: url('../images/common/bonusBg.png');
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    background-size: contain;
+}
+
+.bonus_win_section {
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.deposit_images {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.depositCard {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform-origin: 50% 100%;
+}
+
+.deposit_card1 {
+    transform: rotate(-45deg);
+}
+
+.deposit_card2 {
+    transform: rotate(-30deg);
+}
+
+.deposit_card3 {
+    transform: rotate(-15deg);
+}
+
+.deposit_card4 {
+    transform: rotate(0deg);
+}
+
+.winBonus {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+.ready_Play_Section {
+    top: -100vh;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+}
+
+.ready_sec_heading {
+    color: #2C2C2C;
+    font-size: 40px;
+    font-weight: 400;
+    margin: 20px 0 10vh;
+}
+
+.ready_sec_heading span {
+    /* text-transform: uppercase; */
+    font-weight: 600;
+}
+
+.ready_sec_text {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 5vh;
+}
+
+.ready_sec_text h4 {
+    font-family: 'Druk Text Trial', Arial, sans-serif;
+    font-weight: 700;
+    font-size: 120px;
+    color: #252525;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.ready_sec_text h4:nth-child(1) {
+    transform: translate(-25%, 0) scale(1);
+}
+
+.ready_sec_text h4:nth-child(2) {
+    transform: translate(0, 0) scale(1);
+}
+
+.ready_sec_text .readySecShadowTxt {
+    color: #F2BC11;
+    transform: translate(25%, 0) scale(1);
+    text-shadow: 1px 1px 0 #F2BC11, -1px 1px 0 #F2BC11, 1px -1px 0 #F2BC11, -1px -1px 0 #F2BC11, -1px 0 0 #fff, 0 -1px 0 #fff, -2px -1px 0 #fff, -1px -2px 0 #fff, -3px -2px 0 #fff, -2px -3px 0 #fff, -4px -3px 0 #fff, -3px -4px 0 #fff, -5px -4px 0 #fff, -3px -5px 0 #F2BC11, -6px -5px 0 #F2BC11, 1px -2px 0 #F2BC11, 0 -3px 0 #F2BC11, -1px -4px 0 #F2BC11, -2px -5px 0 #F2BC11, -2px 1px 0 #F2BC11, -3px 0 0 #F2BC11, -4px -1px 0 #F2BC11, -5px -2px 0 #F2BC11, -6px -3px 0 #F2BC11, -7px -4px 0 #F2BC11;
+}
+
+.hrLineSec {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    z-index: 1;
+    width: 100%;
+}
+
+.hr_line {
+    width: 50%;
+    height: 45px;
+    margin-right: -1px;
+    background-color: #F2BC11;
+}
+
+.hr_line_left {
+    transform: translate(-150%, 0);
+}
+
+.hr_line_Right {
+    transform: translate(150%, 0);
+}
+
+.fixed_footer_btn {
+    position: fixed;
+    opacity: 0;
+    z-index: 5;
+    bottom: 2.4vw;
+    left: 50%;
+    transform: translate(-50%, 0);
+    width: 690px;
+    height: 90px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 10px;
+    background: #FFF4DD;
+    box-shadow: 1px 6px 0px 0px rgba(203, 168, 94, 0.40);
+}
+.logoScrollTop img {
+    cursor: pointer;
+    width: 200px;
+}
+.externalLink {
+    text-decoration: none;
+}
+.playNowBtn {
+    all: unset;
+    cursor: pointer;
+    width: 187px;
+    height: 64px;
+    border-radius: 10px;
+    background: #FFE6AF;
+    color: #252525;
+    font-size: 24px;
+    font-weight: 500;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    outline: none;
+}
+.arrowAnime {
+    fill: #000;
+    width: 14px;
+    animation: arrowAnime 1.5s ease-in infinite alternate-reverse;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@keyframes arrowAnime {
+    0% {
+        stroke: #252525;
+        fill: #FFE6AF;
+    }
+    10% {
+        stroke: #252525;
+        fill: #FFE6AF;
+    }
+    20% {
+        fill: #000;
+        stroke: none;
+        transform: translateX(0) scale(1);
+    }
+    70% {
+        fill: #000;
+        stroke: none;
+        transform: translateX(10px) scale(1.2);
+    }
+    100% {
+        fill: #000;
+        stroke: none;
+        transform: translateX(10px) scale(1.2);
+    }
+
+}
+
+.last-section .animate {
+    opacity: 0;
+    transform: translateY(50px);
+    transition: opacity 0.5s, transform 0.5s;
+  }
+  
+  .last-section.pinned .animate {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  .card_games_section {
+    top: -100vh;
+    z-index: -1;
+  }
+  .fantasy_sports_section {
+    top: -100vh;
+  }
+  .deposit_section {
+    top: -200vh;
+    z-index: -1;
+  }
+  .withdraw_section {
+    top: -310vh;
+    z-index: -2;
+  }
+  .why_us_section {
+    top: -420vh;
+    z-index: -3;
+  }
+  .welcome_bonus_section {
+    top: -470vh;
+    z-index: -4;
+  }
+  .bonus_win_section {
+    top: -570vh;
+    z-index: -5;
+  }
+
+  .ready_Play_Section {
+    top: -673vh;
+    z-index: -6;
+  }
+  /* @media(max-width: 1500px) {
+    .fixed_footer_btn {
+        width: 600px;
+        height: 80px;
+    }
+    .playNowBtn {
+        height: 56px;
+        font-size: 22px;
+    }
+    .content_heading b.text_span_first, .content_heading b.text_span_last, .content_heading {
+        font-size: 64px;
+    }
+    .fantasy_card {
+        width: 250px;
+    }
+    .fantasy_cards {
+        margin-top: 2.5%;
+    }
+    .fantasy_card_heading {
+        margin: 10px 0 5px;
+    }
+    img.landing_card {
+        width: 270px;
+    }
+  }
+
+  @media(max-width:1200px) {
+    .landing_sec_heading {
+        font-size: 132px;
+    }
+    .landing_sec_sub_heading {
+        font-size: 84px;
+    }
+    .landing_sec_description {
+        font-size: 24px;
+    }
+    img.landing_card {
+        width: 230px;
+    }
+    .bank_lists img {
+        height: 50px;
+    }
+
+    .ready_sec_text h4:nth-child(1) {
+        transform: translate(-23%, 0) scale(1);
+    } 
+    .ready_sec_text .readySecShadowTxt {
+        transform: translate(23%, 0) scale(1);
+    }
+    .deposit_section .content_section {
+        transform: translate(0, 0);
+    }
+  } */
+
+/* scroll down animation */
+  @keyframes bounce {
+    50% {
+        transform: translate(-50%, -15px);
+    }
+}
+@keyframes runningArrows {
+    0% {
+        opacity: 0.3;
+        transform: translateY(0);
+    }
+    50% {
+        opacity: 1;
+        transform: translateY(20px);
+    }
+    100% {
+        opacity: 0.3;
+        transform: translateY(0);
+    }
+}
+.scroll_down_act {
+    position: absolute;
+    left: 50%;
+    text-align: center;
+    transform: translate(-50%, -50%);
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-family: 'Rubik', sans-serif;
+    top: 93%;
+    animation: bounce 1600ms infinite cubic-bezier(0.445, 0.05, 0.55, 0.95);
+}
+.scroll_down_act .down_arrow_img svg {
+    margin-bottom: 12px;
+    animation: runningArrows 2s linear infinite;
+}
+
+.scroll_move {
+    display: none;
+}
+
+.animetrigger {
+    display: none;
+}
+
+.mobile_Mode {
+    display: none;
+}
+
+/* @media (max-width: 1023px){
+.mobile_Mode {
+    display: block !important;
+}
+.line_screen_bg_gif{
+    display: none !important;
+}
+}
+ */
